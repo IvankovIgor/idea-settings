@@ -1,0 +1,26 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="GradleLocalSettings">
+        <option name="projectSyncType">
+          <map>
+            <entry key="$USER_HOME$/IdeaProjects/integration-api" value="PREVIEW" />
+            <entry key="$USER_HOME$/IdeaProjects/push-application-api" value="PREVIEW" />
+            <entry key="$USER_HOME$/IdeaProjects/push-callback-sender" value="PREVIEW" />
+            <entry key="$USER_HOME$/IdeaProjects/push-common-data" value="PREVIEW" />
+            <entry key="$USER_HOME$/IdeaProjects/push-send-api" value="PREVIEW" />
+            <entry key="$USER_HOME$/IdeaProjects/push-sender" value="PREVIEW" />
+            <entry key="$USER_HOME$/IdeaProjects/push-sink-connector" value="PREVIEW" />
+          </map>
+        </option>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+      </component>
+      <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
