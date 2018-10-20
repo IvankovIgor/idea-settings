@@ -1,7 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'push-send-api'" />
-    <option name="defaultScopeName" value="Project 'push-send-api'" />
-    <option name="SEARCH_SCOPE" value="Project 'push-send-api'" />
+    <option name="customScope" value="Directory '.../integration-mechta-statistics-web [integration-mechta-statistics-web]'" />
+    <option name="defaultScopeName" value="Directory '.../integration-mechta-statistics-web [integration-mechta-statistics-web]'" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="Directory '.../integration-mechta-statistics-web [integration-mechta-statistics-web]'" />
   </component>
 </application>
