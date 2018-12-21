@@ -1,0 +1,9 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="2018-10-31 17:44:43.538  INFO 3678 --- [  restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing" />
+      </list>
+    </option>
+  </component>
+</application>
