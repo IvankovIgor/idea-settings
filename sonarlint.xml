@@ -11,6 +11,7 @@
         <option value="squid:S1181" />
         <option value="squid:S1451" />
         <option value="squid:S1774" />
+        <option value="squid:S2221" />
         <option value="squid:S4605" />
       </set>
     </option>
@@ -94,7 +95,6 @@
         <option value="squid:S2203" />
         <option value="squid:S2208" />
         <option value="squid:S2211" />
-        <option value="squid:S2221" />
         <option value="squid:S2250" />
         <option value="squid:S2253" />
         <option value="squid:S2258" />
