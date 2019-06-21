@@ -9,9 +9,12 @@
         <option value="squid:S00113" />
         <option value="squid:S1067" />
         <option value="squid:S1181" />
+        <option value="squid:S1188" />
         <option value="squid:S1451" />
         <option value="squid:S1774" />
+        <option value="squid:S2211" />
         <option value="squid:S2221" />
+        <option value="squid:S3242" />
         <option value="squid:S4605" />
       </set>
     </option>
@@ -41,7 +44,6 @@
         <option value="squid:S1160" />
         <option value="squid:S1162" />
         <option value="squid:S1166" />
-        <option value="squid:S1188" />
         <option value="squid:S1194" />
         <option value="squid:S1200" />
         <option value="squid:S1213" />
@@ -94,7 +96,6 @@
         <option value="squid:S2197" />
         <option value="squid:S2203" />
         <option value="squid:S2208" />
-        <option value="squid:S2211" />
         <option value="squid:S2250" />
         <option value="squid:S2253" />
         <option value="squid:S2258" />
@@ -117,7 +118,6 @@
         <option value="squid:S3030" />
         <option value="squid:S3047" />
         <option value="squid:S3052" />
-        <option value="squid:S3242" />
         <option value="squid:S3254" />
         <option value="squid:S3282" />
         <option value="squid:S3306" />
