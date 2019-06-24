@@ -18,6 +18,7 @@
         <option value="squid:S2221" />
         <option value="squid:S3242" />
         <option value="squid:S4605" />
+        <option value="squid:UndocumentedApi" />
       </set>
     </option>
     <option name="includedRules">
@@ -161,7 +162,6 @@
         <option value="squid:S888" />
         <option value="squid:S923" />
         <option value="squid:TrailingCommentCheck" />
-        <option value="squid:UndocumentedApi" />
       </set>
     </option>
   </component>
