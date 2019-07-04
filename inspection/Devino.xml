@@ -1,5 +1,5 @@
 <profile version="1.0">
-  <option name="myName" value="devino" />
+  <option name="myName" value="Devino" />
   <inspection_tool class="GroovyAssignabilityCheck" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NullableProblems" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="REPORT_NULLABLE_METHOD_OVERRIDES_NOTNULL" value="true" />
