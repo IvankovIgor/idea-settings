@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../integration-link-shortening-sender/src/main/java/com/devinotele/integration/linkshorteningsender/controller/LinkController.java [integration-link-shortening-sender.main]'" />
-    <option name="defaultScopeName" value="File '.../integration-link-shortening-sender/src/main/java/com/devinotele/integration/linkshorteningsender/controller/LinkController.java [integration-link-shortening-sender.main]'" />
+    <option name="customScope" value="File '.../integration-detalization-writer/src/main/java/com/devinotele/integration/detalizationwriter/repository/dao/ViberDetailDao.java [integration-detalization-writer.main]'" />
+    <option name="defaultScopeName" value="File '.../integration-detalization-writer/src/main/java/com/devinotele/integration/detalizationwriter/repository/dao/ViberDetailDao.java [integration-detalization-writer.main]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localRegularExpressions" value="true" />
     <option name="regularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="File '.../integration-link-shortening-sender/src/main/java/com/devinotele/integration/linkshorteningsender/controller/LinkController.java [integration-link-shortening-sender.main]'" />
+    <option name="SEARCH_SCOPE" value="File '.../integration-detalization-writer/src/main/java/com/devinotele/integration/detalizationwriter/repository/dao/ViberDetailDao.java [integration-detalization-writer.main]'" />
   </component>
 </application>
