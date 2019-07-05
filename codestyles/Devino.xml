@@ -1,12 +1,6 @@
 <code_scheme name="Devino" version="173">
-  <option name="DO_NOT_FORMAT">
-    <list>
-      <fileSet type="namedScope" name="Unnamed" pattern="application.properties" />
-    </list>
-  </option>
   <JavaCodeStyleSettings>
     <option name="ANNOTATION_PARAMETER_WRAP" value="5" />
-    <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
   </JavaCodeStyleSettings>
@@ -40,7 +34,6 @@
     <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
     <option name="TERNARY_OPERATION_WRAP" value="5" />
     <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
-    <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
     <option name="FOR_STATEMENT_WRAP" value="5" />
     <option name="FOR_STATEMENT_LPAREN_ON_NEXT_LINE" value="true" />
     <option name="FOR_STATEMENT_RPAREN_ON_NEXT_LINE" value="true" />
