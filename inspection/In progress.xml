@@ -303,7 +303,7 @@
   <inspection_tool class="IgnoredJUnitTest" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ImplicitDefaultCharsetUsage" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ImplicitNumericConversion" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreWideningConversions" value="false" />
+    <option name="ignoreWideningConversions" value="true" />
     <option name="ignoreCharConversions" value="false" />
     <option name="ignoreConstantConversions" value="false" />
   </inspection_tool>
@@ -429,7 +429,7 @@
   <inspection_tool class="MisorderedAssertEqualsParameters" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MissingDeprecatedAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MissortedModifiers" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_requireAnnotationsFirst" value="true" />
+    <option name="m_requireAnnotationsFirst" value="false" />
   </inspection_tool>
   <inspection_tool class="MisspelledEquals" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MisspelledMethodName" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -886,5 +886,11 @@
   <inspection_tool class="WaitOrAwaitWithoutTimeout" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="WaitWhileHoldingTwoLocks" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="WaitWithoutCorrespondingNotify" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="WeakerAccess" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_MEMBERS" value="false" />
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="false" />
+    <option name="SUGGEST_PRIVATE_FOR_INNERS" value="false" />
+    <option name="SUGGEST_FOR_CONSTANTS" value="false" />
+  </inspection_tool>
   <inspection_tool class="ZeroLengthArrayInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
 </profile>
