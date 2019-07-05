@@ -84,7 +84,6 @@
   </inspection_tool>
   <inspection_tool class="BooleanParameter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BooleanVariableAlwaysNegated" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="BoundedWildcard" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BreakStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BreakStatementWithLabel" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BusyWait" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -423,7 +422,6 @@
   <inspection_tool class="MethodOverridesInaccessibleMethodOfSuper" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MethodOverridesStaticMethod" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MethodReturnAlwaysConstant" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="MethodReturnOfConcreteClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MethodWithMultipleLoops" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MigrateAssertToMatcherAssert" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MisorderedAssertEqualsParameters" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -615,16 +613,9 @@
   </inspection_tool>
   <inspection_tool class="PublicMethodNotExposedInInterface" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignorableAnnotations">
-      <value>
-        <item value="io.swagger.annotations.ApiOperation" />
-        <item value="org.springframework.cache.annotation.CacheEvict" />
-        <item value="org.springframework.cache.annotation.Cacheable" />
-        <item value="org.springframework.context.annotation.Bean" />
-        <item value="org.springframework.web.bind.annotation.ExceptionHandler" />
-        <item value="org.springframework.web.bind.annotation.InitBinder" />
-      </value>
+      <value />
     </option>
-    <option name="onlyWarnIfContainingClassImplementsAnInterface" value="false" />
+    <option name="onlyWarnIfContainingClassImplementsAnInterface" value="true" />
   </inspection_tool>
   <inspection_tool class="PublicStaticArrayField" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PublicStaticCollectionField" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -708,7 +699,9 @@
   </inspection_tool>
   <inspection_tool class="StaticFieldReferenceOnSubclass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StaticGuardedByInstance" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="StaticImport" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="StaticImport" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreSingeMethodImports" value="true" />
+  </inspection_tool>
   <inspection_tool class="StaticInheritance" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StaticMethodOnlyUsedInOneClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StaticNonFinalField" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -728,7 +721,7 @@
     <option name="ignoreSystemOuts" value="false" />
     <option name="ignoreSystemErrs" value="false" />
     <option name="ignoreThrowableArguments" value="false" />
-    <option name="ignoreConstantInitializers" value="false" />
+    <option name="ignoreConstantInitializers" value="true" />
     <option name="ignoreInTestCode" value="false" />
     <option name="ignoreInToString" value="false" />
   </inspection_tool>
