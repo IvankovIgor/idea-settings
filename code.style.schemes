@@ -1,0 +1,15 @@
+<application>
+  <component name="CodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value version="173">
+        <codeStyleSettings language="JAVA">
+          <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+          <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+          <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+          <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+        </codeStyleSettings>
+      </value>
+    </option>
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Devino" />
+  </component>
+</application>
