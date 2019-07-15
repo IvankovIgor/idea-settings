@@ -728,6 +728,7 @@
       <list>
         <option value="Duplicates" />
         <option value="unused" />
+        <option value="unchecked" />
       </list>
     </option>
   </inspection_tool>
