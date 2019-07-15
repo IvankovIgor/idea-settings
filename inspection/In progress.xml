@@ -729,6 +729,7 @@
         <option value="Duplicates" />
         <option value="unused" />
         <option value="unchecked" />
+        <option value="ProhibitedExceptionThrown" />
       </list>
     </option>
   </inspection_tool>
