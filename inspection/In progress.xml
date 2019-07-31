@@ -725,6 +725,8 @@
         <option value="unused" />
         <option value="unchecked" />
         <option value="ProhibitedExceptionThrown" />
+        <option value="Convert2Diamond" />
+        <option value="BooleanMethodIsAlwaysInverted" />
       </list>
     </option>
   </inspection_tool>
