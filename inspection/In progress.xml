@@ -722,6 +722,7 @@
         <option value="ProhibitedExceptionThrown" />
         <option value="Convert2Diamond" />
         <option value="BooleanMethodIsAlwaysInverted" />
+        <option value="UseOfObsoleteDateTimeApi" />
       </list>
     </option>
   </inspection_tool>
