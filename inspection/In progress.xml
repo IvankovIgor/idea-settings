@@ -723,6 +723,7 @@
         <option value="Convert2Diamond" />
         <option value="BooleanMethodIsAlwaysInverted" />
         <option value="UseOfObsoleteDateTimeApi" />
+        <option value="OverlyComplexBooleanExpression" />
       </list>
     </option>
   </inspection_tool>
