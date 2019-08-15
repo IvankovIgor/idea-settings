@@ -729,6 +729,7 @@
         <option value="UseOfObsoleteDateTimeApi" />
         <option value="OverlyComplexBooleanExpression" />
         <option value="ConstantConditions" />
+        <option value="DuplicatedCode" />
       </list>
     </option>
   </inspection_tool>
