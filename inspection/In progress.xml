@@ -171,6 +171,10 @@
   <inspection_tool class="ConfusingOctalEscape" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConnectionResource" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantAssertCondition" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConstantConditions" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="true" />
+    <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false" />
+  </inspection_tool>
   <inspection_tool class="ConstantDeclaredInAbstractClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantDeclaredInInterface" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantJUnitAssertArgument" enabled="true" level="WARNING" enabled_by_default="true" />
