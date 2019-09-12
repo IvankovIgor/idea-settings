@@ -101,9 +101,7 @@
     <option name="ignoreIntegerCharCasts" value="false" />
     <option name="ignoreOverflowingByteCasts" value="false" />
   </inspection_tool>
-  <inspection_tool class="CastToConcreteClass" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreAbstractClasses" value="true" />
-  </inspection_tool>
+  <inspection_tool class="CastToConcreteClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CastToIncompatibleInterface" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ChainedEquality" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ChannelResource" enabled="true" level="WARNING" enabled_by_default="true">
@@ -237,9 +235,6 @@
   <inspection_tool class="ExtendsUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ExternalizableWithSerializationMethods" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FallthruInSwitchStatement" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="FeatureEnvy" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreTestCases" value="false" />
-  </inspection_tool>
   <inspection_tool class="FieldAccessNotGuarded" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FieldAccessedSynchronizedAndUnsynchronized" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="countGettersAndSetters" value="false" />
@@ -724,6 +719,7 @@
         <option value="Convert2Diamond" />
         <option value="BooleanMethodIsAlwaysInverted" />
         <option value="DuplicatedCode" />
+        <option value="ResultOfMethodCallIgnored" />
       </list>
     </option>
   </inspection_tool>
