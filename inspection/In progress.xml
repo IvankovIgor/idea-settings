@@ -237,9 +237,6 @@
   <inspection_tool class="ExtendsUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ExternalizableWithSerializationMethods" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FallthruInSwitchStatement" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="FeatureEnvy" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreTestCases" value="false" />
-  </inspection_tool>
   <inspection_tool class="FieldAccessNotGuarded" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FieldAccessedSynchronizedAndUnsynchronized" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="countGettersAndSetters" value="false" />
@@ -386,7 +383,9 @@
   <inspection_tool class="LoggingConditionDisagreesWithLogStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LoopWithImplicitTerminationCondition" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MagicCharacter" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="MagicNumber" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="MagicNumber" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreInitialCapacity" value="true" />
+  </inspection_tool>
   <inspection_tool class="MalformedRegex" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MalformedSetUpTearDown" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MapReplaceableByEnumMap" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -782,12 +781,12 @@
   <inspection_tool class="TransientFieldInNonSerializableClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TransientFieldNotInitialized" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TrivialStringConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="TypeMayBeWeakened" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="TypeMayBeWeakened" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="useRighthandTypeAsWeakestTypeInAssignments" value="true" />
     <option name="useParameterizedTypeForCollectionMethods" value="true" />
     <option name="doNotWeakenToJavaLangObject" value="true" />
     <option name="onlyWeakentoInterface" value="true" />
-    <stopClasses>java.util.List</stopClasses>
+    <stopClasses>java.util.List,java.time.LocalDate,java.time.LocalDateTime,java.lang.String,java.lang.Iterable,java.util.Collection,java.util.Set,org.springframework.http.HttpHeaders,org.bson.Document</stopClasses>
   </inspection_tool>
   <inspection_tool class="TypeParameterExtendsFinalClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnaryPlus" enabled="true" level="WARNING" enabled_by_default="true" />
