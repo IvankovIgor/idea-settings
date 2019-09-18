@@ -722,6 +722,10 @@
         <option value="BooleanMethodIsAlwaysInverted" />
         <option value="DuplicatedCode" />
         <option value="ResultOfMethodCallIgnored" />
+        <option value="MagicCharacter" />
+        <option value="SwitchStatementWithTooManyBranches" />
+        <option value="OverlyComplexMethod" />
+        <option value="OverlyLongMethod" />
       </list>
     </option>
   </inspection_tool>
