@@ -726,6 +726,7 @@
         <option value="OverlyComplexMethod" />
         <option value="OverlyLongMethod" />
         <option value="NumericCastThatLosesPrecision" />
+        <option value="ConstantConditions" />
       </list>
     </option>
   </inspection_tool>
