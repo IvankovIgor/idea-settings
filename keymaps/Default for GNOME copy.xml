@@ -1,4 +1,7 @@
 <keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
+  <action id="Git.Menu">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift t" />
   </action>
