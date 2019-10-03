@@ -351,7 +351,9 @@
   <inspection_tool class="KeySetIterationMayUseEntrySet" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LabeledStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LambdaParameterHidingMemberVariable" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="LambdaParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LambdaParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_maxLength" value="25" />
+  </inspection_tool>
   <inspection_tool class="LambdaUnfriendlyMethodOverload" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LawOfDemeter" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreLibraryCalls" value="true" />
@@ -372,7 +374,7 @@
     <option name="m_ignoreCatchParameters" value="false" />
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
     <option name="m_minLength" value="1" />
-    <option name="m_maxLength" value="30" />
+    <option name="m_maxLength" value="35" />
   </inspection_tool>
   <inspection_tool class="LogStatementGuardedByLogCondition" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LoggerInitializedWithForeignClass" enabled="true" level="WARNING" enabled_by_default="true">
