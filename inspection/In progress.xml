@@ -28,7 +28,6 @@
   <inspection_tool class="AnonymousInnerClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AnonymousInnerClassMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ArrayEquality" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ArrayLengthInLoopCondition" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AssertEqualsCalledOnArray" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AssertEqualsMayBeAssertSame" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AssertMessageNotString" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -63,7 +62,7 @@
       <value />
     </option>
     <option name="ignoreTestCases" value="false" />
-    <option name="ignoreLibraryOverrides" value="false" />
+    <option name="ignoreLibraryOverrides" value="true" />
   </inspection_tool>
   <inspection_tool class="BadExceptionThrown" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="exceptionsString" value="" />
@@ -77,13 +76,13 @@
   <inspection_tool class="BlockMarkerComments" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BlockingOperatorInNonBlockingScope" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BooleanExpressionMayBeConditional" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="BooleanMethodIsAlwaysInverted" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="BooleanMethodNameMustStartWithQuestion" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreBooleanMethods" value="false" />
     <option name="ignoreInAnnotationInterface" value="true" />
     <option name="onlyWarnOnBaseMethods" value="true" />
     <option name="questionString" value="add,are,can,check,contains,could,endsWith,equals,has,is,matches,must,put,remove,shall,should,startsWith,was,were,will,would" />
   </inspection_tool>
-  <inspection_tool class="BooleanVariableAlwaysNegated" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BreakStatementWithLabel" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BusyWait" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CallToNativeMethodWhileLocked" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -382,7 +381,6 @@
   </inspection_tool>
   <inspection_tool class="LoggingConditionDisagreesWithLogStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LoopWithImplicitTerminationCondition" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="MagicCharacter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MagicNumber" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreInitialCapacity" value="true" />
   </inspection_tool>
@@ -654,7 +652,6 @@
   <inspection_tool class="SetReplaceableByEnumSet" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SharedThreadLocalRandom" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SignalWithoutCorrespondingAwait" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="SimpleDateFormatWithoutLocale" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SimplifiableAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SimplifiableEqualsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SingleCharacterStartsWith" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -729,6 +726,8 @@
         <option value="OverlyLongMethod" />
         <option value="NumericCastThatLosesPrecision" />
         <option value="ConstantConditions" />
+        <option value="OverlyComplexClass" />
+        <option value="DoubleNegation" />
       </list>
     </option>
   </inspection_tool>
@@ -845,7 +844,6 @@
   <inspection_tool class="UseOfClone" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UseOfJDBCDriverClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UseOfObsoleteAssert" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="UseOfObsoleteDateTimeApi" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UseOfProcessBuilder" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UseOfPropertiesAsHashtable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UseOfSunClasses" enabled="true" level="WARNING" enabled_by_default="true" />
