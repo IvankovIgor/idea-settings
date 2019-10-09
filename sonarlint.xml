@@ -143,5 +143,16 @@
         <option value="squid:TrailingCommentCheck" />
       </set>
     </option>
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="https://sonar.devino.pro/" />
+          <option name="name" value="Devino SonarQube" />
+          <option name="login" value="admin" />
+          <password>df93dfc3df98dfc9dfe9df93df9fdfe6dffbdfe0dfdedfe2dfe0dffbdff8dfda</password>
+          <organizationKey>default-organization</organizationKey>
+        </SonarQubeServer>
+      </list>
+    </option>
   </component>
 </application>
