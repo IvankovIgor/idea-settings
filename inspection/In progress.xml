@@ -722,6 +722,7 @@
         <option value="OverlyLongMethod" />
         <option value="NumericCastThatLosesPrecision" />
         <option value="ConstantConditions" />
+        <option value="VariableNotUsedInsideIf" />
       </list>
     </option>
   </inspection_tool>
