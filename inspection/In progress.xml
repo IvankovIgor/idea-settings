@@ -722,6 +722,7 @@
         <option value="NumericCastThatLosesPrecision" />
         <option value="ConstantConditions" />
         <option value="VariableNotUsedInsideIf" />
+        <option value="InstanceVariableMayNotBeInitialized" />
       </list>
     </option>
   </inspection_tool>
