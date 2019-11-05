@@ -723,6 +723,8 @@
         <option value="ConstantConditions" />
         <option value="VariableNotUsedInsideIf" />
         <option value="InstanceVariableMayNotBeInitialized" />
+        <option value="OptionalAssignedToNull" />
+        <option value="LockAcquiredButNotSafelyReleased" />
       </list>
     </option>
   </inspection_tool>
