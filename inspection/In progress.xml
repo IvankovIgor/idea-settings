@@ -725,6 +725,8 @@
         <option value="InstanceVariableMayNotBeInitialized" />
         <option value="OptionalAssignedToNull" />
         <option value="LockAcquiredButNotSafelyReleased" />
+        <option value="UseOfObsoleteDateTimeApi" />
+        <option value="squid:S2789" />
       </list>
     </option>
   </inspection_tool>
