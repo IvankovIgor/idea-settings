@@ -711,6 +711,7 @@
         <option value="OverlyComplexBooleanExpression" />
         <option value="IfStatementWithTooManyBranches" />
         <option value="AssignmentToMethodParameter" />
+        <option value="OverlyCoupledClass" />
       </list>
     </option>
   </inspection_tool>
