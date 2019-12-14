@@ -710,6 +710,7 @@
         <option value="squid:S2789" />
         <option value="OverlyComplexBooleanExpression" />
         <option value="IfStatementWithTooManyBranches" />
+        <option value="AssignmentToMethodParameter" />
       </list>
     </option>
   </inspection_tool>
