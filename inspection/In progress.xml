@@ -709,6 +709,7 @@
         <option value="UseOfObsoleteDateTimeApi" />
         <option value="squid:S2789" />
         <option value="OverlyComplexBooleanExpression" />
+        <option value="IfStatementWithTooManyBranches" />
       </list>
     </option>
   </inspection_tool>
