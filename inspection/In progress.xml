@@ -726,6 +726,7 @@
         <option value="squid:S2789" />
         <option value="OverlyCoupledClass" />
         <option value="AssignmentToMethodParameter" />
+        <option value="OverlyComplexBooleanExpression" />
       </list>
     </option>
   </inspection_tool>
