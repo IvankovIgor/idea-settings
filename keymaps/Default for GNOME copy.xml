@@ -5,4 +5,8 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
+  <action id="SaveAll" />
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
 </keymap>

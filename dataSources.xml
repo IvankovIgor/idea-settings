@@ -1,0 +1,16 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@mssql-test.devinotest.local" uuid="1e781e04-2709-4c45-af3d-0ba622a950c3">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mssql-test.devinotest.local</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@mssql-dev.devinotest.local" uuid="19d18d52-bbe0-4815-a2e2-2c450d59ec10">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mssql-dev.devinotest.local</jdbc-url>
+    </data-source>
+  </component>
+</application>
