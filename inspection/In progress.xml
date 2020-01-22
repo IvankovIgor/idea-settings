@@ -726,6 +726,8 @@
         <option value="OverlyCoupledClass" />
         <option value="AssignmentToMethodParameter" />
         <option value="OverlyComplexBooleanExpression" />
+        <option value="StringConcatenationMissingWhitespace" />
+        <option value="ReturnOfNull" />
       </list>
     </option>
   </inspection_tool>
