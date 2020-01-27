@@ -727,6 +727,7 @@
         <option value="OverlyCoupledClass" />
         <option value="AssignmentToMethodParameter" />
         <option value="OverlyComplexBooleanExpression" />
+        <option value="OverlyComplexClass" />
       </list>
     </option>
   </inspection_tool>
