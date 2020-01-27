@@ -728,6 +728,7 @@
         <option value="AssignmentToMethodParameter" />
         <option value="OverlyComplexBooleanExpression" />
         <option value="OverlyComplexClass" />
+        <option value="LawOfDemeter" />
       </list>
     </option>
   </inspection_tool>
