@@ -729,6 +729,9 @@
         <option value="OverlyComplexBooleanExpression" />
         <option value="OverlyComplexClass" />
         <option value="LawOfDemeter" />
+        <option value="AnonymousInnerClassMayBeStatic" />
+        <option value="AnonymousInnerClass" />
+        <option value="DoubleNegation" />
       </list>
     </option>
   </inspection_tool>
