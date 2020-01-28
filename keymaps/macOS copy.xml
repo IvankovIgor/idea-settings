@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CloseContent" />
+  <action id="MarkNotificationsAsRead">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
