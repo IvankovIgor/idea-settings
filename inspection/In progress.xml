@@ -735,6 +735,7 @@
         <option value="AssignmentOrReturnOfFieldWithMutableType" />
         <option value="ReturnOfNull" />
         <option value="ClassWithTooManyMethods" />
+        <option value="OverlyCoupledMethod" />
       </list>
     </option>
   </inspection_tool>
