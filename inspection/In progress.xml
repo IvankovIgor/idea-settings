@@ -734,6 +734,7 @@
         <option value="DoubleNegation" />
         <option value="AssignmentOrReturnOfFieldWithMutableType" />
         <option value="ReturnOfNull" />
+        <option value="ClassWithTooManyMethods" />
       </list>
     </option>
   </inspection_tool>
