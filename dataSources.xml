@@ -1,16 +1,22 @@
 <application>
   <component name="dataSourceStorage" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@mssql-test.devinotest.local" uuid="1e781e04-2709-4c45-af3d-0ba622a950c3">
+    <data-source source="LOCAL" name="TEST @mssql-test.devinotest.local" uuid="1e781e04-2709-4c45-af3d-0ba622a950c3">
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mssql-test.devinotest.local</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="@mssql-dev.devinotest.local" uuid="19d18d52-bbe0-4815-a2e2-2c450d59ec10">
+    <data-source source="LOCAL" name="DEV @mssql-dev.devinotest.local" uuid="19d18d52-bbe0-4815-a2e2-2c450d59ec10">
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mssql-dev.devinotest.local</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="TEST @clickhouse-01.devinotest.local" uuid="a673e7b7-d97d-4bb8-939a-d0f666c63886">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://clickhouse-01.devinotest.local:8123</jdbc-url>
     </data-source>
   </component>
 </application>
