@@ -18,5 +18,11 @@
       <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
       <jdbc-url>jdbc:clickhouse://clickhouse-01.devinotest.local:8123</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="TEST @clickhouse-02.devinotest.local" uuid="0ff1e3b3-3bfd-499a-8ddc-6770228faae8">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://clickhouse-02.devinotest.local:8123</jdbc-url>
+    </data-source>
   </component>
 </application>
