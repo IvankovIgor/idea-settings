@@ -726,6 +726,7 @@
         <option value="StringConcatenationMissingWhitespace" />
         <option value="ReturnOfNull" />
         <option value="AssignmentToNull" />
+        <option value="OverlyLongLambda" />
       </list>
     </option>
   </inspection_tool>
