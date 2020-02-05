@@ -728,6 +728,7 @@
         <option value="OverlyComplexBooleanExpression" />
         <option value="StringConcatenationMissingWhitespace" />
         <option value="ReturnOfNull" />
+        <option value="AssignmentToNull" />
       </list>
     </option>
   </inspection_tool>
