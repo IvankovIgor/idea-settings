@@ -729,6 +729,7 @@
         <option value="OverlyLongLambda" />
         <option value="ClassWithTooManyMethods" />
         <option value="OverlyComplexClass" />
+        <option value="NonSerializableFieldInSerializableClass" />
       </list>
     </option>
   </inspection_tool>
