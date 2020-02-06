@@ -728,6 +728,7 @@
         <option value="AssignmentToNull" />
         <option value="OverlyLongLambda" />
         <option value="ClassWithTooManyMethods" />
+        <option value="OverlyComplexClass" />
       </list>
     </option>
   </inspection_tool>
