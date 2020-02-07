@@ -730,6 +730,8 @@
         <option value="ClassWithTooManyMethods" />
         <option value="OverlyComplexClass" />
         <option value="NonSerializableFieldInSerializableClass" />
+        <option value="AnonymousInnerClassMayBeStatic" />
+        <option value="AnonymousInnerClass" />
       </list>
     </option>
   </inspection_tool>
