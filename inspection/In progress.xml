@@ -643,7 +643,6 @@
   <inspection_tool class="SignalWithoutCorrespondingAwait" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SimplifiableAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SimplifiableEqualsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="SingleCharacterStartsWith" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="Singleton" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SleepWhileHoldingLock" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -724,15 +723,15 @@
         <option value="OverlyCoupledClass" />
         <option value="AssignmentToMethodParameter" />
         <option value="OverlyComplexBooleanExpression" />
+        <option value="StringConcatenationMissingWhitespace" />
+        <option value="ReturnOfNull" />
+        <option value="AssignmentToNull" />
+        <option value="OverlyLongLambda" />
+        <option value="ClassWithTooManyMethods" />
         <option value="OverlyComplexClass" />
-        <option value="LawOfDemeter" />
+        <option value="NonSerializableFieldInSerializableClass" />
         <option value="AnonymousInnerClassMayBeStatic" />
         <option value="AnonymousInnerClass" />
-        <option value="DoubleNegation" />
-        <option value="AssignmentOrReturnOfFieldWithMutableType" />
-        <option value="ReturnOfNull" />
-        <option value="ClassWithTooManyMethods" />
-        <option value="OverlyCoupledMethod" />
       </list>
     </option>
   </inspection_tool>
@@ -835,6 +834,7 @@
     <option name="m_ignoreStaticMethodCalls" value="true" />
     <option name="m_ignoreStaticAccessFromStaticContext" value="false" />
   </inspection_tool>
+  <inspection_tool class="UnsecureRandomNumberGeneration" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnusedLibrary" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnusedProperty" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UpperCaseFieldNameNotConstant" enabled="true" level="WARNING" enabled_by_default="true" />

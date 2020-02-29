@@ -12,17 +12,17 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mssql-dev.devinotest.local</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="TEST @clickhouse-01.devinotest.local" uuid="a673e7b7-d97d-4bb8-939a-d0f666c63886">
+    <data-source source="LOCAL" name="TEST @clickhouse-01.devinotest.local" uuid="aa04e608-0d48-44df-9449-2c1363fd49c2">
       <driver-ref>clickhouse</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
       <jdbc-url>jdbc:clickhouse://clickhouse-01.devinotest.local:8123</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="TEST @clickhouse-02.devinotest.local" uuid="0ff1e3b3-3bfd-499a-8ddc-6770228faae8">
-      <driver-ref>clickhouse</driver-ref>
+    <data-source source="LOCAL" name="TEST @mongo-01.devinotest.local" uuid="f35edae6-f558-483e-8d54-316b0f909505">
+      <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
-      <jdbc-url>jdbc:clickhouse://clickhouse-02.devinotest.local:8123</jdbc-url>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://mongo-01.devinotest.local:27017</jdbc-url>
     </data-source>
   </component>
 </application>
