@@ -64,12 +64,6 @@
     <option name="ignoreTestCases" value="false" />
     <option name="ignoreLibraryOverrides" value="true" />
   </inspection_tool>
-  <inspection_tool class="BadExceptionThrown" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="exceptionsString" value="" />
-    <option name="exceptions">
-      <value />
-    </option>
-  </inspection_tool>
   <inspection_tool class="BadOddness" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BigDecimalEquals" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BigDecimalLegacyMethod" enabled="true" level="WARNING" enabled_by_default="true" />
