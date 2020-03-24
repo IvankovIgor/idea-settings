@@ -720,6 +720,8 @@
         <option value="AnonymousInnerClassMayBeStatic" />
         <option value="AnonymousInnerClass" />
         <option value="OverlyCoupledMethod" />
+        <option value="fallthrough" />
+        <option value="ThrowInsideCatchBlockWhichIgnoresCaughtException" />
       </list>
     </option>
   </inspection_tool>
