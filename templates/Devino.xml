@@ -4,8 +4,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="nlog" value="private static final Logger LOGGER = LoggerFactory.getLogger($CLASS_NAME$.class);" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+  <template name="nlog" value="private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
