@@ -722,6 +722,7 @@
         <option value="OverlyCoupledMethod" />
         <option value="fallthrough" />
         <option value="ThrowInsideCatchBlockWhichIgnoresCaughtException" />
+        <option value="UnstableApiUsage" />
       </list>
     </option>
   </inspection_tool>
