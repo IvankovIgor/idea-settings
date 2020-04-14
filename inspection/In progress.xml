@@ -723,6 +723,13 @@
         <option value="fallthrough" />
         <option value="ThrowInsideCatchBlockWhichIgnoresCaughtException" />
         <option value="UnstableApiUsage" />
+        <option value="ThrowsRuntimeException" />
+        <option value="PublicConstructorInNonPublicClass" />
+        <option value="NullableProblems" />
+        <option value="SynchronizationOnLocalVariableOrMethodParameter" />
+        <option value="LocalVariableHidesMemberVariable" />
+        <option value="resource" />
+        <option value="RedundantThrows" />
       </list>
     </option>
   </inspection_tool>
