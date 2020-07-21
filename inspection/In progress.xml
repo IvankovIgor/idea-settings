@@ -44,7 +44,7 @@
   <inspection_tool class="AssignmentToSuperclassField" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AssignmentUsedAsCondition" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AutoCloseableResource" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="METHOD_MATCHER_CONFIG" value="java.util.Formatter,format,java.io.Writer,append,com.google.common.base.Preconditions,checkNotNull,org.hibernate.Session,close,java.io.PrintWriter,printf,org.springframework.boot.SpringApplication,run" />
+    <option name="METHOD_MATCHER_CONFIG" value="java.util.Formatter,format,java.io.Writer,append,com.google.common.base.Preconditions,checkNotNull,org.hibernate.Session,close,java.io.PrintWriter,printf,org.springframework.boot.SpringApplication,run,com.amazonaws.services.s3.AmazonS3,getObject" />
   </inspection_tool>
   <inspection_tool class="AwaitNotInLoop" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AwaitWithoutCorrespondingSignal" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -54,7 +54,7 @@
       <value />
     </option>
   </inspection_tool>
-  <inspection_tool class="BadExceptionDeclared" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="BadExceptionDeclared" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="exceptionsString" value="" />
     <option name="exceptions">
       <value />
@@ -69,7 +69,6 @@
   <inspection_tool class="BlockingOperatorInNonBlockingScope" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BooleanExpressionMayBeConditional" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BreakStatementWithLabel" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="BusyWait" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CallToNativeMethodWhileLocked" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CallToSimpleGetterInClass" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreGetterCallsOnOtherObjects" value="false" />
@@ -198,7 +197,6 @@
     <option name="commentsAreContent" value="true" />
   </inspection_tool>
   <inspection_tool class="EmptyDirectory" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="EmptyInitializer" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="EmptySynchronizedStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="EnumerationCanBeIteration" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="EqualsAndHashcode" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -233,7 +231,6 @@
   <inspection_tool class="FieldHidesSuperclassField" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreInvisibleFields" value="true" />
   </inspection_tool>
-  <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FieldMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FieldNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FinalMethod" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -291,7 +288,7 @@
   </inspection_tool>
   <inspection_tool class="InstanceGuardedByStatic" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InstanceVariableInitialization" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_ignorePrimitives" value="false" />
+    <option name="m_ignorePrimitives" value="true" />
   </inspection_tool>
   <inspection_tool class="InstanceVariableUninitializedUse" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignorePrimitives" value="false" />
@@ -304,7 +301,6 @@
   <inspection_tool class="InstanceofIncompatibleInterface" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InstanceofInterfaces" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InstanceofThis" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="InstantiationOfUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IntLiteralMayBeLongLiteral" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IntegerMultiplicationImplicitCastToLong" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreNonOverflowingCompileTimeConstants" value="true" />
@@ -314,7 +310,6 @@
     <option name="ignoreInterfacesThatOnlyDeclareConstants" value="false" />
   </inspection_tool>
   <inspection_tool class="InterfaceWithOnlyOneDirectInheritor" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="IteratorHasNextCallsIteratorNext" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IteratorNextDoesNotThrowNoSuchElementException" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JDBCExecuteWithNonConstantString" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JDBCPrepareStatementWithNonConstantString" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -338,7 +333,6 @@
   <inspection_tool class="LambdaUnfriendlyMethodOverload" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LengthOneStringInIndexOf" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LimitedScopeInnerClass" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ListIndexOfReplaceableByContains" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ListenerMayUseAdapter" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="checkForEmptyMethods" value="true" />
   </inspection_tool>
@@ -369,7 +363,7 @@
   <inspection_tool class="MethodCount" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_limit" value="20" />
     <option name="ignoreGettersAndSetters" value="false" />
-    <option name="ignoreOverridingMethods" value="false" />
+    <option name="ignoreOverridingMethods" value="true" />
   </inspection_tool>
   <inspection_tool class="MethodCoupling" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_includeJavaClasses" value="false" />
@@ -550,7 +544,7 @@
     <option name="m_limit" value="7" />
   </inspection_tool>
   <inspection_tool class="ParametersPerMethod" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_limit" value="15" />
+    <option name="m_limit" value="25" />
   </inspection_tool>
   <inspection_tool class="PointlessIndexOfComparison" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PrivateMemberAccessBetweenOuterAndInnerClass" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -565,7 +559,7 @@
   <inspection_tool class="PublicConstructorInNonPublicClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PublicFieldAccessedInSynchronizedContext" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PublicInnerClass" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreEnums" value="false" />
+    <option name="ignoreEnums" value="true" />
     <option name="ignoreInterfaces" value="false" />
   </inspection_tool>
   <inspection_tool class="PublicMethodNotExposedInInterface" enabled="true" level="WARNING" enabled_by_default="true">
@@ -649,7 +643,7 @@
   </inspection_tool>
   <inspection_tool class="StaticFieldReferenceOnSubclass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StaticGuardedByInstance" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="StaticImport" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="StaticImport" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="ignoreSingeMethodImports" value="true" />
   </inspection_tool>
   <inspection_tool class="StaticInheritance" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -720,6 +714,17 @@
         <option value="AnonymousInnerClassMayBeStatic" />
         <option value="AnonymousInnerClass" />
         <option value="OverlyCoupledMethod" />
+        <option value="fallthrough" />
+        <option value="ThrowInsideCatchBlockWhichIgnoresCaughtException" />
+        <option value="UnstableApiUsage" />
+        <option value="ThrowsRuntimeException" />
+        <option value="PublicConstructorInNonPublicClass" />
+        <option value="NullableProblems" />
+        <option value="SynchronizationOnLocalVariableOrMethodParameter" />
+        <option value="LocalVariableHidesMemberVariable" />
+        <option value="resource" />
+        <option value="RedundantThrows" />
+        <option value="SuspiciousMethodCalls" />
       </list>
     </option>
   </inspection_tool>
@@ -757,7 +762,9 @@
     <option name="ignoreSupers" value="true" />
   </inspection_tool>
   <inspection_tool class="TestMethodInProductCode" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="TestMethodWithoutAssertion" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="TestMethodWithoutAssertion" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="assertionMethods" value="org.junit.Assert,assert.*|fail.*,junit.framework.Assert,assert.*|fail.*,org.junit.jupiter.api.Assertions,assert.*|fail.*,org.assertj.core.api.Assertions,assertThat,org.assertj.core.api.WithAssertions,assertThat,com.google.common.truth.Truth,assert.*,com.google.common.truth.Truth8,assert.*,org.mockito.Mockito,verify.*,org.mockito.InOrder,verify,org.junit.rules.ExpectedException,expect.*,org.hamcrest.MatcherAssert,assertThat,mockit.Verifications,Verifications,org.skyscreamer.jsonassert.JSONAssert,assertEquals" />
+  </inspection_tool>
   <inspection_tool class="TestOnlyProblems" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThisEscapedInConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadDeathRethrown" enabled="true" level="WARNING" enabled_by_default="true" />
