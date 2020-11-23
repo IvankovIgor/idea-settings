@@ -723,6 +723,7 @@
         <option value="resource" />
         <option value="RedundantThrows" />
         <option value="SuspiciousMethodCalls" />
+        <option value="BusyWait" />
       </list>
     </option>
   </inspection_tool>
