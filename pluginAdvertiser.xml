@@ -2,6 +2,15 @@
   <component name="PluginAdvertiserExtensions">
     <option name="localState">
       <map>
+        <entry key="*.aj">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.aspectj" />
+              <option name="myPluginName" value="AspectJ" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.ane">
           <value>
             <plugin>
@@ -101,6 +110,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.config">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Lombook Plugin" />
+              <option name="myPluginName" value="Lombok" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.cql">
           <value>
             <plugin>
@@ -124,15 +142,6 @@
             <plugin>
               <option name="myPluginId" value="com.intellij.database" />
               <option name="myPluginName" value="Database Tools and SQL" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
-        <entry key="*.cvp">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="DevKit" />
-              <option name="myPluginName" value="Plugin DevKit" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -272,6 +281,51 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.feature">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="gherkin" />
+              <option name="myPluginName" value="Gherkin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ft">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.velocity" />
+              <option name="myPluginName" value="Velocity" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ftl">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.freemarker" />
+              <option name="myPluginName" value="FreeMarker" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ftlh">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.freemarker" />
+              <option name="myPluginName" value="FreeMarker" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ftlx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.freemarker" />
+              <option name="myPluginName" value="FreeMarker" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.fxml">
           <value>
             <plugin>
@@ -335,6 +389,24 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.gson">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.groovy" />
+              <option name="myPluginName" value="Groovy" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.gsp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.grails" />
+              <option name="myPluginName" value="Grails" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.gy">
           <value>
             <plugin>
@@ -349,6 +421,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.hgignore">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="hg4idea" />
+              <option name="myPluginName" value="Mercurial" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -524,6 +605,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.jql">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.tasks" />
+              <option name="myPluginName" value="Task Management" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.jrxml">
           <value>
             <plugin>
@@ -547,15 +637,6 @@
             <plugin>
               <option name="myPluginId" value="JavaScript" />
               <option name="myPluginName" value="JavaScript and TypeScript" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
-        <entry key="*.js.map">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="JavaScriptDebugger" />
-              <option name="myPluginName" value="JavaScript Debugger" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -920,14 +1001,6 @@
             </plugin>
           </value>
         </entry>
-        <entry key="*.psv">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="net.seesharpsoft.intellij.plugins.csv" />
-              <option name="myPluginName" value="CSV Plugin" />
-            </plugin>
-          </value>
-        </entry>
         <entry key="*.regexp">
           <value>
             <plugin>
@@ -1054,14 +1127,6 @@
             </plugin>
           </value>
         </entry>
-        <entry key="*.tab">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="net.seesharpsoft.intellij.plugins.csv" />
-              <option name="myPluginName" value="CSV Plugin" />
-            </plugin>
-          </value>
-        </entry>
         <entry key="*.tag">
           <value>
             <plugin>
@@ -1170,11 +1235,29 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.vm">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.velocity" />
+              <option name="myPluginName" value="Velocity" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.vsd">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.vsl">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.velocity" />
+              <option name="myPluginName" value="Velocity" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1377,6 +1460,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key=".classpath">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.eclipse" />
+              <option name="myPluginName" value="Eclipse Interoperability" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key=".editorconfig">
           <value>
             <plugin>
@@ -1454,6 +1546,24 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key=".project">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.eclipse" />
+              <option name="myPluginName" value="Eclipse Interoperability" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key=".springBeans">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.eclipse" />
+              <option name="myPluginName" value="Eclipse Interoperability" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1575,6 +1685,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="lombok.config">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Lombook Plugin" />
+              <option name="myPluginName" value="Lombok" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="maven.config">
           <value>
             <plugin>
@@ -1640,9 +1759,19 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
-                  <entry key="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+                  <entry key="#com.intellij.j2ee.web.jsr45.JSR45ConfigurationFactory">
                     <value>
-                      <FeaturePluginData displayName="Plugin" pluginName="Plugin DevKit" pluginId="DevKit" />
+                      <FeaturePluginData displayName="JSR45 Compatible Server" pluginName="Debugger Support for JSP (JSR45)" pluginId="JSR45Plugin" />
+                    </value>
+                  </entry>
+                  <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+                    <value>
+                      <FeaturePluginData displayName="Tomcat Server" pluginName="Tomcat and TomEE" pluginId="Tomcat" />
+                    </value>
+                  </entry>
+                  <entry key="AntRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Ant Target" pluginName="Ant" pluginId="AntSupport" />
                     </value>
                   </entry>
                   <entry key="Application">
@@ -1650,14 +1779,14 @@
                       <FeaturePluginData displayName="Application" pluginName="Java" pluginId="com.intellij.java" />
                     </value>
                   </entry>
-                  <entry key="ChromiumRemoteDebugType">
-                    <value>
-                      <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
-                    </value>
-                  </entry>
                   <entry key="CompoundRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Compound" pluginName="IDEA CORE" pluginId="com.intellij" />
+                    </value>
+                  </entry>
+                  <entry key="CucumberJavaRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Cucumber Java" pluginName="Cucumber for Java" pluginId="cucumber-java" />
                     </value>
                   </entry>
                   <entry key="DatabaseScript">
@@ -1665,9 +1794,9 @@
                       <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
                     </value>
                   </entry>
-                  <entry key="FirefoxRemoteDebugType">
+                  <entry key="GlassfishConfiguration">
                     <value>
-                      <FeaturePluginData displayName="Firefox Remote" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
+                      <FeaturePluginData displayName="GlassFish Server" pluginName="GlassFish" pluginId="GlassFish" />
                     </value>
                   </entry>
                   <entry key="GradleRunConfiguration">
@@ -1675,9 +1804,19 @@
                       <FeaturePluginData displayName="Gradle" pluginName="Gradle" pluginId="com.intellij.gradle" />
                     </value>
                   </entry>
+                  <entry key="GrailsRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Grails" pluginName="Grails" pluginId="org.intellij.grails" />
+                    </value>
+                  </entry>
                   <entry key="GroovyScriptRunConfiguration">
                     <value>
                       <FeaturePluginData displayName="Groovy" pluginName="Groovy" pluginId="org.intellij.groovy" />
+                    </value>
+                  </entry>
+                  <entry key="JBossConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="JBoss Server" pluginName="WildFly" pluginId="JBoss" />
                     </value>
                   </entry>
                   <entry key="JUnit">
@@ -1705,14 +1844,14 @@
                       <FeaturePluginData displayName="Protractor" pluginName="JavaScript and TypeScript" pluginId="JavaScript" />
                     </value>
                   </entry>
-                  <entry key="JavascriptDebugType">
-                    <value>
-                      <FeaturePluginData displayName="JavaScript Debug" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
-                    </value>
-                  </entry>
                   <entry key="JetRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                  <entry key="JettyConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Jetty Server" pluginName="Jetty" pluginId="Jetty" />
                     </value>
                   </entry>
                   <entry key="KotlinStandaloneScriptRunConfigurationType">
@@ -1725,14 +1864,9 @@
                       <FeaturePluginData displayName="Maven" pluginName="Maven" pluginId="org.jetbrains.idea.maven" />
                     </value>
                   </entry>
-                  <entry key="NodeWebKit">
+                  <entry key="MicronautRunConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="NW.js" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
-                    </value>
-                  </entry>
-                  <entry key="ReactNative">
-                    <value>
-                      <FeaturePluginData displayName="React Native" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
+                      <FeaturePluginData displayName="Micronaut" pluginName="Micronaut" pluginId="com.intellij.micronaut" />
                     </value>
                   </entry>
                   <entry key="Remote">
@@ -1750,14 +1884,19 @@
                       <FeaturePluginData displayName="Spring Boot" pluginName="Spring Boot" pluginId="com.intellij.spring.boot" />
                     </value>
                   </entry>
-                  <entry key="SwaggerCodegen">
-                    <value>
-                      <FeaturePluginData displayName="Swagger Codegen" pluginName="OpenAPI Specifications" pluginId="com.intellij.swagger" />
-                    </value>
-                  </entry>
                   <entry key="TSqltConfigurationType">
                     <value>
                       <FeaturePluginData displayName="tSQLt Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
+                    </value>
+                  </entry>
+                  <entry key="TestNG">
+                    <value>
+                      <FeaturePluginData displayName="TestNG" pluginName="TestNG" pluginId="TestNG-J" />
+                    </value>
+                  </entry>
+                  <entry key="TomeeConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="TomEE Server" pluginName="Tomcat and TomEE" pluginId="Tomcat" />
                     </value>
                   </entry>
                   <entry key="UtPlSqlConfigurationType">
@@ -1765,14 +1904,24 @@
                       <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
                     </value>
                   </entry>
+                  <entry key="WebLogic Instance">
+                    <value>
+                      <FeaturePluginData displayName="WebLogic Server" pluginName="WebLogic" pluginId="Weblogic" />
+                    </value>
+                  </entry>
+                  <entry key="WebSphereRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="WebSphere Server" pluginName="WebSphere" pluginId="WebSphere" />
+                    </value>
+                  </entry>
+                  <entry key="XSLT">
+                    <value>
+                      <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" />
+                    </value>
+                  </entry>
                   <entry key="docker-deploy">
                     <value>
                       <FeaturePluginData displayName="Docker" pluginName="IDEA CORE" pluginId="com.intellij" />
-                    </value>
-                  </entry>
-                  <entry key="jmh-id">
-                    <value>
-                      <FeaturePluginData displayName="Jmh" pluginName="JMH Java Microbenchmark Harness" pluginId="ru.artyushov" />
                     </value>
                   </entry>
                   <entry key="js.build_tools.grunt">
@@ -1800,6 +1949,11 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="AspectJ">
+                    <value>
+                      <FeaturePluginData displayName="AspectJ" pluginName="AspectJ" pluginId="com.intellij.aspectj" />
+                    </value>
+                  </entry>
                   <entry key="Spring">
                     <value>
                       <FeaturePluginData displayName="Spring" pluginName="Spring" pluginId="com.intellij.spring" />
@@ -1808,11 +1962,6 @@
                   <entry key="WebServicesClient">
                     <value>
                       <FeaturePluginData displayName="WebServices Client" pluginName="Java EE: Web Services (JAX-WS)" pluginId="com.jetbrains.jax.ws" />
-                    </value>
-                  </entry>
-                  <entry key="ejb">
-                    <value>
-                      <FeaturePluginData displayName="EJB" pluginName="Java EE: Enterprise Java Beans (EJB)" pluginId="com.intellij.javaee.ejb" />
                     </value>
                   </entry>
                   <entry key="javaeeApplication">
@@ -1878,6 +2027,16 @@
                   <entry key="jar">
                     <value>
                       <FeaturePluginData displayName="JAR" pluginName="Java" pluginId="com.intellij.java" />
+                    </value>
+                  </entry>
+                  <entry key="javafx">
+                    <value>
+                      <FeaturePluginData displayName="JavaFx application" pluginName="JavaFX" pluginId="org.jetbrains.plugins.javaFX" />
+                    </value>
+                  </entry>
+                  <entry key="javafx-preloader">
+                    <value>
+                      <FeaturePluginData displayName="JavaFx preloader" pluginName="JavaFX" pluginId="org.jetbrains.plugins.javaFX" />
                     </value>
                   </entry>
                   <entry key="plain">
