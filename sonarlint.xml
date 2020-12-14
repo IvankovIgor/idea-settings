@@ -1,6 +1,11 @@
 <application>
   <component name="SonarLintGlobalSettings">
     <option name="autoTrigger" value="false" />
+    <option name="excludedRules">
+      <set>
+        <option value="squid:S1602" />
+      </set>
+    </option>
     <option name="sonarQubeServers">
       <list>
         <SonarQubeServer>
@@ -12,8 +17,5 @@
         </SonarQubeServer>
       </list>
     </option>
-    <rules>
-      <Rule active="false" key="squid:S1602" />
-    </rules>
   </component>
 </application>
