@@ -18,7 +18,7 @@
       <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
       <jdbc-url>jdbc:clickhouse://clickhouse-01.devinotest.local:8123</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="TEST @mongo-01.devinotest.local" uuid="f35edae6-f558-483e-8d54-316b0f909505">
+    <data-source source="LOCAL" name="TEST @mongo-02.devinotest.local" uuid="f35edae6-f558-483e-8d54-316b0f909505">
       <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
